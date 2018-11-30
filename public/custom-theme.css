@@ -1,0 +1,13 @@
+/**
+ * Custom Fractal Theme
+ */
+
+@media screen {
+
+  /**
+   * Header
+   */
+  .Header {
+    background-color: #3b5b7b;
+  }
+}

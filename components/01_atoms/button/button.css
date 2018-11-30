@@ -1,0 +1,153 @@
+/**
+ * Buttons
+ */
+
+@media screen {
+
+  button {
+    background-color: var(--primary-background);
+    border-radius: 0.25rem;
+    border: 1px solid var(--primary-background);
+    color: #fff;
+    font: inherit;
+    padding: 0.25em 0.75em;
+  }
+
+  button > span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+  }
+
+  /* Button icon */
+  button > span > .icon {
+    flex: 0 0 auto;
+  }
+
+  /* Button text label */
+  button > span > span {
+    min-width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  button.alt {
+    background-color: #fff;
+    border-color: #999;
+    color: currentColor;
+  }
+
+  button span {
+    margin: 0;
+  }
+
+  button .icon {
+    height: 1.5em;
+    width: 1.5em;
+  }
+
+  button .icon + span {
+    margin-left: 0.5em;
+  }
+
+  /* RTL */
+  [dir="rtl"] button .icon + span {
+    margin-left: 0;
+    margin-right: 0.5em;
+  }
+
+  button[type="reset"] {
+    background-color: #fff;
+    color: currentColor;
+    margin-right: 1rem;
+  }
+
+  button[disabled] {
+    background-color: #efefef;
+    color: #aaa;
+    border: 1px solid #c7c7c7;
+  }
+
+  button[aria-pressed="true"] {
+    background-color: #666;
+    border: none;
+  }
+
+  /* Full width call to action */
+  button.main-cta {
+    display: block;
+    width: 100%;
+  }
+
+  button.main-cta > span {
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 100%;
+    white-space: nowrap;
+  }
+
+  /* Flat button with only icon */
+  button.btn-flat-icon {
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    color: currentColor;
+    padding: 0.2rem;
+    min-width: auto;
+    display: block;
+    text-align: center;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    word-break: break-all;
+    word-break: break-word;
+  }
+
+  button.btn-flat-icon .icon {
+    transform: scale(1);
+  }
+
+  button.btn-flat-icon.active {
+    color: var(--primary-background);
+  }
+
+  button.btn-flat-icon > span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  button.btn-flat-icon span span {
+    font-size: 0.75em;
+    font-weight: bold;
+    margin: 0.5em 0 0;
+  }
+
+  /* Callout button (larger icon) */
+  button.btn-flat-icon.callout .icon {
+    height: 2.2em;
+    width: 2.2em;
+  }
+
+  button.circle.alt {
+    color: var(--mid-dark-grey);
+  }
+
+  /**
+   * Button sizes
+   */
+
+  /* Small */
+  button.size-s {
+    font-size: 0.86em;
+    padding: 0.5em 0.75em;
+  }
+
+  /* Large */
+  button.size-l {
+    padding: 1em 1.125em;
+  }
+}

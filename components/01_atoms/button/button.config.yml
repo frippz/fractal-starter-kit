@@ -1,0 +1,26 @@
+title: Button
+collated: true
+context:
+  text: Regular button
+variants:
+  - name: alternative
+    context:
+      text: Alternative
+      modifier: alt
+  - name: small
+    context:
+      text: Small button
+      modifier: size-s
+  - name: large
+    context:
+      text: Large button
+      modifier: size-l
+  - name: icon
+    context:
+      text: Language
+      icon: language
+  - name: icon only
+    context:
+      text: Language
+      icon: language
+      icon_only: true

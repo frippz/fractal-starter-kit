@@ -1,0 +1,16 @@
+/**
+ * Color palette
+ */
+:root {
+
+  /**
+   * Base colors
+   */
+
+  /* Elements */
+  --body-text: #333;
+
+  /* Surfaces */
+  --body-background: #fff;
+  --primary-background: #f09d51;
+}

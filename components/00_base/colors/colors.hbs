@@ -1,0 +1,11 @@
+<ul class="color-palette-list">
+  {{#each colors}}
+  <li>
+    <div class="color-sample" style="background-color: {{hex}}"></div>
+    <ul class="flat-list">
+      <li><code>{{css_custom_prop}}</code></li>
+      <li><code>{{hex}}</code></li>
+    </ul>
+  </li>
+  {{/each}}
+</ul>

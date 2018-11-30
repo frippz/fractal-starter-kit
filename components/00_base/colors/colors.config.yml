@@ -1,0 +1,13 @@
+title: Brand colors
+preview: '@palette'
+context:
+  colors:
+    -
+      css_custom_prop: --body-text
+      hex: '#333'
+    -
+      css_custom_prop: --body-background
+      hex: '#fff'
+    -
+      css_custom_prop: --primary-background
+      hex: '#f09d51'

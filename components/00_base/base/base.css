@@ -1,0 +1,190 @@
+/**
+ * Base rules & resets
+ */
+
+@media all {
+
+  /**
+   * The lobotomized owl (https://goo.gl/yb5iHw)
+   */
+  * + * {
+    margin-top: 1.5em;
+  }
+
+  /**
+   * HTML5 elements legacy reset
+   */
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  main,
+  menu,
+  nav,
+  section {
+    display: block;
+  }
+
+  /**
+   * Reset body & html spacing
+   */
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+  }
+
+  /**
+   * Force scrollbar
+   */
+  body {
+    overflow-y: scroll;
+  }
+
+  /**
+   * Reset box sizing
+   */
+  html {
+    box-sizing: border-box;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+  /**
+   * Body styling
+   */
+  html,
+  body {
+    background: var(--body-background);
+    color: var(--body-text);
+  }
+
+  /**
+   * Links
+   */
+  :link,
+  :visited,
+  a:hover,
+  a:focus,
+  a:active {
+    color: var(--link-base);
+  }
+
+  /**
+   * Block links
+   */
+  .block-link,
+  .block-link:hover,
+  .block-link:focus,
+  .block-link:active {
+    color: inherit;
+    display: block;
+    text-decoration: none;
+  }
+
+  /**
+   * Emphasis
+   */
+  b,
+  strong {
+    font-weight: bold;
+  }
+
+  i,
+  em {
+    font-style: italic;
+  }
+
+  /**
+   * Horizontal rule
+   */
+  hr {
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+
+  /**
+   * Tables
+   */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+
+  table,
+  th,
+  td {
+    border: 0;
+  }
+
+  /**
+   * Responsive images & videos
+   */
+  img,
+  video {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+  }
+
+  /**
+   * Inline frame element
+   */
+  iframe {
+    border: 0;
+  }
+
+  /**
+   * SVG defaults (same as body color)
+   */
+  .icon {
+    fill: currentColor;
+    pointer-events: none;
+  }
+
+  /**
+   * Hidden elements
+   */
+  [hidden] {
+    display: none;
+  }
+
+  /**
+   * Visually hidden
+   *
+   * Still visible to AT:s
+   */
+  .at-only {
+    height: 1px;
+    left: -10000px;
+    overflow: hidden;
+    position: absolute;
+    top: auto;
+    width: 1px;
+  }
+
+  [dir="rtl"] .at-only {
+    left: auto;
+    right: -10000px;
+  }
+
+  /**
+   * Flat list
+   */
+  .flat-list {
+    padding: 0;
+    list-style: none;
+  }
+
+  .flat-list li {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,161 @@
+/**
+ * Forms
+ */
+
+@media screen {
+
+  /**
+   * Form labels
+   */
+  label {
+    display: block;
+  }
+
+  /**
+   * Form inputs
+   */
+  select,
+  input,
+  textarea {
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+  }
+
+  input[type="tel"],
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0;
+    padding: 0.5rem 0.75rem;
+    width: 100%;
+    -webkit-appearance: none;
+  }
+
+  /* Label & input */
+  label + input {
+    margin-top: 0.5em;
+  }
+
+  /* Inputs with inline button */
+  .inline-input {
+    display: flex;
+  }
+
+  .text.alt input {
+    flex: 1 1 auto;
+  }
+
+  .inline-input button {
+    flex: 0 0 auto;
+    margin-left: 0.5rem;
+  }
+
+  /* Placeholder styling */
+  ::placeholder {
+    color: #ccc;
+  }
+
+  /**
+   * Fieldset
+   */
+  fieldset {
+    border: 0;
+    padding: 0;
+  }
+
+  fieldset > * {
+    margin-top: 0.5em;
+  }
+
+  /**
+   * Select
+   */
+  .select select {
+    width: 100%;
+  }
+
+  /**
+   * Radio buttons
+   */
+  .radio {
+    display: flex;
+    align-items: center;
+  }
+
+  .radio input {
+    margin: 0.25em 0.4em;
+  }
+
+  .radio > * {
+    margin-top: 0;
+  }
+
+  /**
+   * Inline phone number form
+   */
+  .intl-phone-number {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+  }
+
+  .intl-phone-number > div,
+  .intl-phone-number .text {
+    margin-top: 0;
+  }
+
+  .intl-phone-number .submit-area {
+    display: flex;
+    margin-left: 0.5em;
+  }
+
+  /* RTL */
+  [dir="rtl"] .intl-phone-number .submit-area {
+    margin-left: 0;
+    margin-right: 0.5em;
+  }
+
+  .inline-phone-group {
+    display: flex;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.75rem;
+    max-width: 22rem;
+    position: relative;
+  }
+
+  [dir="rtl"] .inline-phone-group {
+    direction: ltr;
+  }
+
+  .inline-phone-group input {
+    border: 0;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .inline-phone-group .text {
+    display: flex;
+    align-items: stretch;
+  }
+
+  .inline-phone-group .text:first-child {
+    flex: 0 0 4rem;
+  }
+
+  .inline-phone-group .text + .text {
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 0.5em;
+  }
+
+  .inline-phone-group .text:first-child::before {
+    align-self: center;
+    content: "+";
+    display: inline-block;
+    margin-right: 0.1em;
+    color: #999;
+  }
+}

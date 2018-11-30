@@ -1,0 +1,14 @@
+<button
+  type="button"
+  {{#if modifier}} class="{{ modifier }}"{{/if}}
+  {{#if icon_only}} aria-label="{{text}}"{{/if}}
+>
+  <span>
+    {{#if icon}}
+    {{> @svg}}
+    {{/if}}
+    {{#unless icon_only}}
+    <span>{{text}}</span>
+    {{/unless}}
+  </span>
+</button>
