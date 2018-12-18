@@ -2,7 +2,7 @@
 
 I made this starter kit for myself, but you are more than welcome to use it for your own projects.
 
-## Get started
+## Getting started
 
 **1.** Install dependencies:
 
