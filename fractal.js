@@ -45,12 +45,13 @@ fractal.web.theme(customTheme);
 fractal.components.set('statuses', {
   prototype: {
     label: 'Prototype',
-    description: 'Do not implement.',
+    description: 'Not ready for production. Do not implement.',
     color: '#ff3333'
   },
   wip: {
     label: 'WIP',
-    description: 'Work in progress. Implement with caution.',
+    description:
+      'Work in progress. Development is still ongoing. Implement with caution.',
     color: '#ff9233'
   },
   ready: {
@@ -60,7 +61,34 @@ fractal.components.set('statuses', {
   },
   deprecated: {
     label: 'Deprecated',
-    description: 'No longer to be used in production.',
+    description:
+      'Might still be used in production, but no new features should be based upon this.',
     color: '#555'
   }
 });
+
+fractal.components.set('default.status', 'wip');
+
+// Fractal customisations
+const hbs = require('@frctl/handlebars')({
+  // Partials
+  partials: {
+    /**
+     * Renders the status tag of a component or documentation page.
+     *
+     * @param {object} status The status object.
+     *
+     * @example
+     * {{> renderStatusTag _self.status }}
+     *
+     * @returns {string} Returns markup that renders the status tag.
+     */
+    renderStatusTag: status => {
+      return `<p class="Status Status-label" style="background-color: ${
+        status.color
+      }">${status.label}</p>`;
+    }
+  }
+});
+
+fractal.docs.engine(hbs);

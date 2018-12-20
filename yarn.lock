@@ -169,7 +169,7 @@
     vinyl "^1.2.0"
     vorpal "~1.11.2"
 
-"@frctl/handlebars@^1.1.3":
+"@frctl/handlebars@^1.1.3", "@frctl/handlebars@^1.1.5":
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/@frctl/handlebars/-/handlebars-1.1.5.tgz#99e01f2536eac6ed18b9f9d3066756cbadec59ca"
   integrity sha512-YmlNOcW3ufqKLB1LgU30+sGDVr1yEOLmIQlQXAs5Trf8L2+rpvep7LGLn5tgR1GdaX/OcElXwgm+E0GNYiR++A==

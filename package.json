@@ -4,6 +4,7 @@
   "license": "MIT",
   "dependencies": {
     "@frctl/fractal": "^1.1.7",
+    "@frctl/handlebars": "^1.1.5",
     "@frctl/mandelbrot": "^1.2.0"
   },
   "scripts": {
