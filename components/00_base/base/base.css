@@ -5,13 +5,6 @@
 @media all {
 
   /**
-   * The lobotomized owl (https://goo.gl/yb5iHw)
-   */
-  * + * {
-    margin-top: 1.5em;
-  }
-
-  /**
    * HTML5 elements legacy reset
    */
   article,
