@@ -8,11 +8,11 @@
     "@frctl/mandelbrot": "^1.2.0"
   },
   "scripts": {
-    "start": "parallelshell 'yarn run build:watch' 'fractal start --sync'",
+    "start": "concurrently 'yarn run build:watch' 'fractal start --sync'",
     "prebuild": "mkdir -p public/css public/js && touch public/css/styles.css public/js/bundle.js",
-    "build": "parallelshell 'yarn run build:css' 'yarn run build:svg' 'yarn run build:js' ",
+    "build": "yarn run build:css && yarn run build:svg && yarn run build:js",
     "prebuild:watch": "yarn run prebuild",
-    "build:watch": "parallelshell 'yarn run build:watch:css' 'yarn run build:watch:svg' 'yarn run build:watch:js'",
+    "build:watch": "concurrently 'yarn run build:watch:css' 'yarn run build:watch:svg' 'yarn run build:watch:js'",
     "build:watch:css": "onchange './components/**/*.css' -i -- yarn run build:css",
     "build:watch:js": "onchange './components/**/*.js' -i -- yarn run build:js",
     "build:watch:svg": "onchange './svg/**' -i -- yarn run build:svg",
@@ -26,10 +26,10 @@
   "devDependencies": {
     "clean-css-cli": "^4.1.11",
     "concat": "^1.0.3",
+    "concurrently": "^4.1.0",
     "eslint": "^4.5.0",
     "globcat": "^1.1.1",
     "onchange": "^3.2.1",
-    "parallelshell": "^3.0.1",
     "postcss-cli": "^5.0.0",
     "postcss-custom-properties": "^7.0.0",
     "postcss-import": "^11.1.0",
