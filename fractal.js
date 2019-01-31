@@ -36,6 +36,10 @@ const customTheme = mandelbrot({
   'styles': [
     'default',
     '/custom-theme.css'
+  ],
+  'nav': [
+    'docs',
+    'components'
   ]
 });
 
