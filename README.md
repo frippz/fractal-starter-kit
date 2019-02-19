@@ -39,3 +39,7 @@ Again using [globcat](https://www.npmjs.com/package/globcat) to bundle any JavaS
 I’ve added support for building an SVG sprite using [svg-sprite](https://github.com/jkphl/svg-sprite) and [svgo](https://github.com/svg/svgo). Source files are place in the `svg` folder in the root and `svg-sprite` should build them into a sprite that will be included in the `_preview.hbs` template. Check out the `_sprite` component if you’re curious. [There’s a good article on SVG sprites on CSS-Tricks](https://css-tricks.com/svg-sprites-use-better-icon-fonts/).
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1142c3dd-ca94-4246-9ebc-4de8f8d555c4/deploy-status)](https://app.netlify.com/sites/fractal-starter-kit/deploys)
+
+## Feedback
+
+I would _absolutely love it_ if you have constructive feedback on how to improve this starter kit. Don’t hesitate to open up an issue or submit a PR if you do!
