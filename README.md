@@ -2,6 +2,10 @@
 
 I made this starter kit for myself, but you are more than welcome to use it for your own projects.
 
+## Requirements
+
+This project has been built with Node.js 10.15.0. Lower versions might work just fine, but it’s untested. The plan is to have it running on current LTS versions, at the very least.
+
 ## Getting started
 
 **1.** Install dependencies:
