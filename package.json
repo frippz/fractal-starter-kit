@@ -20,7 +20,7 @@
     "postbuild:css": "postcss public/css/styles.css -c postcss.config.js | cleancss --source-map -o public/css/styles.css",
     "build:js": "globcat './components/**/*.js' -o public/js/bundle.js",
     "build:svg": "svg-sprite -C svg-sprite.config.json --dest ./components/_sprite svg/*.svg svg/**/*.svg",
-    "fractal:build": "fractal build",
+    "fractal:build": "fractal build && cp ./_header ./build/",
     "fractal:build:clean": "rm -rf ./build/*",
     "prefractal:deploy": "yarn run fractal:build",
     "fractal:deploy": "./script/deploy.sh"
