@@ -13,7 +13,7 @@ This project has been built with Node.js 10.15.0. Lower versions might work just
 ```bash
 $ yarn
 ```
-  
+
 **2.** Start Fractal and the build tools
 
 ```bash
@@ -32,7 +32,7 @@ There’s no Webpack or Gulp here. I opted for basic NPM scripts in `package.jso
 
 ### CSS
 
-CSS is bundled with [globcat](https://www.npmjs.com/package/globcat) and then processed with [PostCSS](https://postcss.org). The only thing being transpiled is basic `:root` based custom properties. Nothing else. Linting is done with [Stylelint](https://stylelint.io).
+CSS is bundled with [postcss-import-ext-glob](https://www.npmjs.com/package/postcss-import-ext-glob) via `all.css` and then processed with [PostCSS](https://postcss.org). The only thing being transpiled is basic `:root` based custom properties. Nothing else. Linting is done with [Stylelint](https://stylelint.io). [cssnano](https://cssnano.co) is used for minification with the `default` preset (color minification has been disabled, however).
 
 ### JavaScript
 
