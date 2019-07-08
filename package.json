@@ -5,7 +5,7 @@
   "dependencies": {
     "@frctl/fractal": "^1.1.7",
     "@frctl/handlebars": "^1.1.5",
-    "@frctl/mandelbrot": "^1.2.0"
+    "@frctl/mandelbrot": "^1.2.1"
   },
   "scripts": {
     "start": "concurrently 'yarn run build:watch' 'fractal start --sync'",
@@ -26,17 +26,19 @@
     "fractal:deploy": "./script/deploy.sh"
   },
   "devDependencies": {
-    "clean-css-cli": "^4.1.11",
+    "clean-css-cli": "^4.3.0",
     "concat": "^1.0.3",
-    "concurrently": "^4.1.0",
-    "eslint": "^4.5.0",
+    "concurrently": "^4.1.1",
+    "cssnano": "^4.1.10",
+    "eslint": "^6.0.1",
     "globcat": "^1.1.1",
-    "onchange": "^3.2.1",
-    "postcss-cli": "^5.0.0",
-    "postcss-custom-properties": "^7.0.0",
-    "postcss-import": "^11.1.0",
-    "stylelint": "^9.2.0",
+    "onchange": "^6.0.0",
+    "postcss-cli": "^6.1.2",
+    "postcss-custom-properties": "^9.0.1",
+    "postcss-import": "^12.0.1",
+    "postcss-import-ext-glob": "^1.1.0",
+    "stylelint": "^10.1.0",
     "svg-sprite": "^1.3.7",
-    "yarn": "^1.5.1"
+    "yarn": "^1.16.0"
   }
 }
