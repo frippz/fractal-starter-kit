@@ -32,7 +32,7 @@ There’s no Webpack or Gulp here. I opted for basic NPM scripts in `package.jso
 
 ### CSS
 
-CSS is bundled with [postcss-import-ext-glob](https://www.npmjs.com/package/postcss-import-ext-glob) via `all.css` and then processed with [PostCSS](https://postcss.org). The only thing being transpiled is basic `:root` based custom properties. Nothing else. Linting is done with [Stylelint](https://stylelint.io). [cssnano](https://cssnano.co) is used for minification with the `default` preset (color minification has been disabled, however).
+CSS is processed with [PostCSS](https://postcss.org). Since stylesheets can reside anywhere within `/compontents/`, bundling is performed with [postcss-import-ext-glob](https://www.npmjs.com/package/postcss-import-ext-glob) via `all.css` at the project root. The only thing being transpiled is basic `:root` based custom properties. Nothing else. Linting is done with [Stylelint](https://stylelint.io). [cssnano](https://cssnano.co) is used for minification with the `default` preset (color minification has been disabled, however).
 
 ### JavaScript
 
