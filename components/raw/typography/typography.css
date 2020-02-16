@@ -1,0 +1,108 @@
+/**
+ * Typography
+ *
+ * This stylesheet handles everything related to typography,
+ * like font sizes, line heights and so on.
+ */
+
+@media all {
+
+  /**
+   * Fonts & sizes
+   *
+   * Respect browser default sizes (usually 16px)
+   */
+  html {
+    font: 100%/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  /**
+   * Headings
+   */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+    line-height: 1.25;
+    margin: 1.3em 0 0.7em;
+  }
+
+  h1:first-child,
+  h2:first-child,
+  h3:first-child,
+  h4:first-child,
+  h5:first-child,
+  h6:first-child {
+    margin-top: 0;
+  }
+
+  h1 + *,
+  h2 + *,
+  h3 + *,
+  h4 + *,
+  h5 + *,
+  h6 + * {
+    margin-top: 0;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.7em;
+  }
+
+  h3 {
+    font-size: 1.4em;
+  }
+
+  h4 {
+    font-size: 1.2em;
+  }
+
+  h5,
+  h6 {
+    font-size: 1em;
+  }
+
+  /**
+   * Generic styling
+   */
+  ul,
+  ol {
+    margin-bottom: 0;
+    padding-left: 2.3em;
+  }
+
+  ul {
+    list-style: disc;
+  }
+
+  ol {
+    list-style: decimal;
+  }
+
+  li + li,
+  li ol,
+  li ul {
+    margin-top: 0.5em;
+  }
+
+  /**
+   * Paragraphs
+   */
+  p {
+    margin-bottom: 0;
+  }
+
+  p:first-child {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="no-js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+    window.frctl = {
+        env: 'static'
+    };
+    </script>
+    <script>var cl = document.querySelector('html').classList; cl.remove('no-js'); cl.add('has-js');</script>
+    <link rel="shortcut icon" href="../../themes/mandelbrot/favicon.ico" type="image/ico">
+
+<link rel="stylesheet" href="../../themes/mandelbrot/css/default.css?cachebust=1.2.1" type="text/css">
+
+<link rel="stylesheet" href="../../custom-theme.css?cachebust=1.2.1" type="text/css">
+
+
+<title>Typography | Fractal Starter Kit (also, please change this 😘)</title>
+
+</head>
+<body>
+
+
+
+<div class="Frame" id="frame">
+
+    <div class="Frame-header">
+        <div class="Header">
+    <button class="Header-button Header-navToggle" data-action="toggle-sidebar">
+        <svg class="Header-navToggleIcon Header-navToggleIcon--open" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M19 6.4L17.6 5 12 10.6 6.4 5 5 6.4 10.6 12 5 17.6 6.4 19 12 13.4 17.6 19 19 17.6 13.4 12z"/>
+</svg>
+
+        <svg class="Header-navToggleIcon Header-navToggleIcon--closed" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+</svg>
+
+    </button>
+    <a href="../../index.html" class="Header-title" data-pjax>Fractal Starter Kit (also, please change this 😘)</a>
+</div>
+
+    </div>
+
+    <div class="Frame-body" data-role="body">
+
+        <div class="Frame-panel Frame-panel--main" data-role="main">
+            <div class="Frame-inner" id="pjax-container">
+            
+
+
+    
+    
+
+<div class="Pen" data-behaviour="pen" id="pen-d0de7167d6d1f359f06fb5b124f0c9a3">
+
+    
+
+    <div class="Pen-panel Pen-header">
+    <h1 class="Pen-title">
+        <a class="Pen-previewLink" href="../preview/typography.html" title="Component preview">
+            Typography
+            <svg fill="#000000" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M19 4H5c-1.11 0-2 .9-2 2v12c0 1.1.89 2 2 2h4v-2H5V8h14v10h-4v2h4c1.1 0 2-.9 2-2V6c0-1.1-.89-2-2-2zm-7 6l-4 4h3v6h2v-6h3l-4-4z"/>
+</svg>
+
+        </a>
+    </h1>
+    
+
+<div class="Status Status--tag">
+
+<label class="Status-label" style="background-color: #ff9233; border-color: #ff9233;">WIP</label>
+
+</div>
+
+
+</div>
+
+
+    <div class="Pen-panel Pen-preview Preview" data-behaviour="preview" id="preview-d0de7167d6d1f359f06fb5b124f0c9a3">
+    <div class="Preview-wrapper" data-role="resizer">
+        <div class="Preview-resizer">
+            
+             <iframe
+                class="Preview-iframe"
+                data-role="window"
+                src="../preview/typography.html"
+                sandbox="allow-same-origin allow-scripts allow-forms allow-modals"
+                 style=""
+                marginwidth="0" marginheight="0" frameborder="0" vspace="0" hspace="0" scrolling="yes">
+            </iframe>
+        </div>
+        <div class="Preview-handle" data-role="resize-handle"></div>
+        <div class="Preview-overlay"></div>
+    </div>
+</div>
+
+
+    <div class="Pen-handle Pen-handle--browser" data-role="resize-handle"></div>
+
+    <div class="Pen-panel Pen-info" data-role="info">
+    <div class="Browser" data-behaviour="browser" id="browser-d0de7167d6d1f359f06fb5b124f0c9a3">
+
+    
+
+<div class="Browser-controls">
+    <ul class="Browser-tabs">
+        
+        
+        <li class="Browser-tab Browser-tab--html is-active " data-role="tab">
+            <a href="#browser-d0de7167d6d1f359f06fb5b124f0c9a3-panel-html">HTML</a>
+        </li>
+        
+        
+        
+        <li class="Browser-tab Browser-tab--view" data-role="tab">
+            <a href="#browser-d0de7167d6d1f359f06fb5b124f0c9a3-panel-view">View</a>
+        </li>
+        
+        
+        
+        <li class="Browser-tab Browser-tab--context" data-role="tab">
+            <a href="#browser-d0de7167d6d1f359f06fb5b124f0c9a3-panel-context">Context</a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="Browser-tab Browser-tab--resources" data-role="tab">
+            <a href="#browser-d0de7167d6d1f359f06fb5b124f0c9a3-panel-assets">Assets</a>
+        </li>
+        
+        
+        
+        
+        
+        <li class="Browser-tab Browser-tab--info" data-role="tab">
+            <a href="#browser-d0de7167d6d1f359f06fb5b124f0c9a3-panel-info">Info</a>
+        </li>
+        
+        
+        
+        <li class="Browser-tab Browser-tab--notes" data-role="tab">
+            <a href="#browser-d0de7167d6d1f359f06fb5b124f0c9a3-panel-notes">Notes</a>
+        </li>
+        
+        
+    </ul>
+</div>
+
+
+    
+    
+<div class="Browser-panel Browser-code is-active" data-role="tab-panel" id="browser-d0de7167d6d1f359f06fb5b124f0c9a3-panel-html">
+    <code class="Code Code--lang-html">
+        
+        <pre><span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Level 1 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Level 2 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Level 3 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>Level 4 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h5</span>&gt;</span>Level 5 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h5</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h6</span>&gt;</span>Level 6 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h6</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Alias quis dolor soluta odit qui placeat. Sit accusantium in consequatur sit et tenetur natus nulla. Beatae adipisci eius tenetur corrupti illum aut libero ut. Nobis cumque incidunt iste odit laborum totam. At consectetur sit voluptatem id. Mollitia corrupti qui enim consequatur.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Non amet magni nostrum. Quam sit fuga illum corporis. Corrupti est et praesentium quod nulla cumque. Qui recusandae assumenda molestiae enim tempore. Ipsa voluptate occaecati nobis qui amet dolorem eaque.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Illo dolor veritatis occaecati in quo. Aut eum facere fugit error. Voluptatem velit earum labore nulla. Aspernatur necessitatibus sunt error enim praesentium. Quas est et sunt magni autem voluptatem nemo. Placeat amet itaque repellendus.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Sint accusamus maxime quo. Tempore molestias sed quidem aut sed corrupti eveniet consequatur. Dolor voluptas blanditiis cumque porro velit et sequi natus. Vel et atque voluptatum recusandae unde delectus voluptas quos. Itaque ut est aut sed. Ipsa harum sapiente error eos perferendis qui ipsa rerum.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Level 1 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Alias quis dolor soluta odit qui placeat. Sit accusantium in consequatur sit et tenetur natus nulla. Beatae adipisci eius tenetur corrupti illum aut libero ut. Nobis cumque incidunt iste odit laborum totam. At consectetur sit voluptatem id. Mollitia corrupti qui enim consequatur.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Level 2 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Non amet magni nostrum. Quam sit fuga illum corporis. Corrupti est et praesentium quod nulla cumque. Qui recusandae assumenda molestiae enim tempore. Ipsa voluptate occaecati nobis qui amet dolorem eaque.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Level 3 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Illo dolor veritatis occaecati in quo. Aut eum facere fugit error. Voluptatem velit earum labore nulla. Aspernatur necessitatibus sunt error enim praesentium. Quas est et sunt magni autem voluptatem nemo. Placeat amet itaque repellendus.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>Level 4 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Sint accusamus maxime quo. Tempore molestias sed quidem aut sed corrupti eveniet consequatur. Dolor voluptas blanditiis cumque porro velit et sequi natus. Vel et atque voluptatum recusandae unde delectus voluptas quos. Itaque ut est aut sed. Ipsa harum sapiente error eos perferendis qui ipsa rerum.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h5</span>&gt;</span>Level 5 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h5</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Donec consectetur faucibus semper. Phasellus vulputate nunc et aliquet tristique. Vestibulum hendrerit feugiat dapibus. Etiam hendrerit suscipit semper. Duis suscipit mauris odio, at tempor urna condimentum vel. Phasellus gravida ornare ante rhoncus finibus. Donec fringilla, ipsum vel auctor mollis, leo sem venenatis nisi, aliquet faucibus odio sem ac ligula. In lacinia faucibus convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a nibh ornare, congue sapien ac, porta diam. Proin erat tortor, faucibus et tristique ut, finibus eget nulla. Nullam lacus tellus, aliquet sit amet feugiat ut, commodo et enim. Cras faucibus nisi lacus, eu convallis nisi consectetur et. Suspendisse potenti. Duis a lacus sed diam porttitor consequat eget et leo.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h6</span>&gt;</span>Level 6 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h6</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Morbi libero augue, rhoncus non consequat ut, tempor quis diam. Curabitur enim nulla, bibendum sed commodo ac, porttitor ac tortor. Integer nec bibendum leo, vitae tempus diam. Vestibulum vel aliquet quam, vitae efficitur arcu. Sed accumsan lorem ante, aliquam efficitur elit ornare at. Nulla facilisi. Aenean pretium vulputate tortor non efficitur. Vivamus molestie eros at metus sollicitudin, quis consectetur augue feugiat.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span></pre>
+        
+    </code>
+</div>
+
+    
+    <div class="Browser-panel Browser-code" data-role="tab-panel" id="browser-d0de7167d6d1f359f06fb5b124f0c9a3-panel-view">
+    <code class="Code Code--lang-handlebars">
+        <pre><span class="hljs-template-tag">{{#&gt; @<span class="hljs-name">content</span>-block }}</span><span class="xml">
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Level 1 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Level 2 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Level 3 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>Level 4 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h5</span>&gt;</span>Level 5 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h5</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h6</span>&gt;</span>Level 6 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h6</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Alias quis dolor soluta odit qui placeat. Sit accusantium in consequatur sit et tenetur natus nulla. Beatae adipisci eius tenetur corrupti illum aut libero ut. Nobis cumque incidunt iste odit laborum totam. At consectetur sit voluptatem id. Mollitia corrupti qui enim consequatur.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Non amet magni nostrum. Quam sit fuga illum corporis. Corrupti est et praesentium quod nulla cumque. Qui recusandae assumenda molestiae enim tempore. Ipsa voluptate occaecati nobis qui amet dolorem eaque.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Illo dolor veritatis occaecati in quo. Aut eum facere fugit error. Voluptatem velit earum labore nulla. Aspernatur necessitatibus sunt error enim praesentium. Quas est et sunt magni autem voluptatem nemo. Placeat amet itaque repellendus.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Sint accusamus maxime quo. Tempore molestias sed quidem aut sed corrupti eveniet consequatur. Dolor voluptas blanditiis cumque porro velit et sequi natus. Vel et atque voluptatum recusandae unde delectus voluptas quos. Itaque ut est aut sed. Ipsa harum sapiente error eos perferendis qui ipsa rerum.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Level 1 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Alias quis dolor soluta odit qui placeat. Sit accusantium in consequatur sit et tenetur natus nulla. Beatae adipisci eius tenetur corrupti illum aut libero ut. Nobis cumque incidunt iste odit laborum totam. At consectetur sit voluptatem id. Mollitia corrupti qui enim consequatur.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Level 2 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Non amet magni nostrum. Quam sit fuga illum corporis. Corrupti est et praesentium quod nulla cumque. Qui recusandae assumenda molestiae enim tempore. Ipsa voluptate occaecati nobis qui amet dolorem eaque.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Level 3 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Illo dolor veritatis occaecati in quo. Aut eum facere fugit error. Voluptatem velit earum labore nulla. Aspernatur necessitatibus sunt error enim praesentium. Quas est et sunt magni autem voluptatem nemo. Placeat amet itaque repellendus.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>Level 4 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Sint accusamus maxime quo. Tempore molestias sed quidem aut sed corrupti eveniet consequatur. Dolor voluptas blanditiis cumque porro velit et sequi natus. Vel et atque voluptatum recusandae unde delectus voluptas quos. Itaque ut est aut sed. Ipsa harum sapiente error eos perferendis qui ipsa rerum.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h5</span>&gt;</span>Level 5 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h5</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Donec consectetur faucibus semper. Phasellus vulputate nunc et aliquet tristique. Vestibulum hendrerit feugiat dapibus. Etiam hendrerit suscipit semper. Duis suscipit mauris odio, at tempor urna condimentum vel. Phasellus gravida ornare ante rhoncus finibus. Donec fringilla, ipsum vel auctor mollis, leo sem venenatis nisi, aliquet faucibus odio sem ac ligula. In lacinia faucibus convallis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a nibh ornare, congue sapien ac, porta diam. Proin erat tortor, faucibus et tristique ut, finibus eget nulla. Nullam lacus tellus, aliquet sit amet feugiat ut, commodo et enim. Cras faucibus nisi lacus, eu convallis nisi consectetur et. Suspendisse potenti. Duis a lacus sed diam porttitor consequat eget et leo.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">h6</span>&gt;</span>Level 6 heading<span class="hljs-tag">&lt;/<span class="hljs-name">h6</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Morbi libero augue, rhoncus non consequat ut, tempor quis diam. Curabitur enim nulla, bibendum sed commodo ac, porttitor ac tortor. Integer nec bibendum leo, vitae tempus diam. Vestibulum vel aliquet quam, vitae efficitur arcu. Sed accumsan lorem ante, aliquam efficitur elit ornare at. Nulla facilisi. Aenean pretium vulputate tortor non efficitur. Vivamus molestie eros at metus sollicitudin, quis consectetur augue feugiat.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+</span><span class="hljs-template-tag">{{/ @<span class="hljs-name">content</span>-block }}</span></pre>
+    </code>
+</div>
+
+    
+    <div class="Browser-panel Browser-code" data-role="tab-panel" id="browser-d0de7167d6d1f359f06fb5b124f0c9a3-panel-context">
+    <code class="Code Code--lang-yaml">
+        
+            
+            <pre><span class="hljs-comment">/* No context defined for this component. */</span></pre>
+            
+        
+    </code>
+</div>
+
+    
+    
+
+
+<div class="Browser-panel Browser-resources" data-role="tab-panel" id="browser-d0de7167d6d1f359f06fb5b124f0c9a3-panel-assets">
+    <div class="FileBrowser">
+
+        <div class="FileBrowser-selectWrapper">
+            <label class="FileBrowser-select-label" for="filebrowser-select">File:</label>
+            <select class="FileBrowser-select" id="filebrowser-select">
+                
+                <option value="file-5744bf8d159fce620117572f1bfd4f9b">typography.css</option>
+                
+            </select>
+        </div>
+
+        
+        <div class="FileBrowser-item is-active" id="file-5744bf8d159fce620117572f1bfd4f9b" data-role="resource-preview">
+            <ul class="Meta">
+                <li class="Meta-item">
+                    <strong class="Meta-key">Content:</strong>
+                    <span class="Meta-value">
+                        <div class="FileBrowser-itemPreview">
+                            
+                            <code class="Code Code--lang-CSS FileBrowser-code">
+                                <pre><span class="hljs-comment">/**
+ * Typography
+ *
+ * This stylesheet handles everything related to typography,
+ * like font sizes, line heights and so on.
+ */</span>
+
+<span class="hljs-keyword">@media</span> all {
+
+  <span class="hljs-comment">/**
+   * Fonts &amp; sizes
+   *
+   * Respect browser default sizes (usually 16px)
+   */</span>
+  <span class="hljs-selector-tag">html</span> {
+    <span class="hljs-attribute">font</span>: <span class="hljs-number">100%</span>/<span class="hljs-number">1.5</span> <span class="hljs-string">"Helvetica Neue"</span>, Helvetica, Arial, sans-serif;
+    <span class="hljs-attribute">font-weight</span>: normal;
+    <span class="hljs-attribute">-ms-text-size-adjust</span>: <span class="hljs-number">100%</span>;
+    <span class="hljs-attribute">-webkit-text-size-adjust</span>: <span class="hljs-number">100%</span>;
+  }
+
+  <span class="hljs-comment">/**
+   * Headings
+   */</span>
+  <span class="hljs-selector-tag">h1</span>,
+  <span class="hljs-selector-tag">h2</span>,
+  <span class="hljs-selector-tag">h3</span>,
+  <span class="hljs-selector-tag">h4</span>,
+  <span class="hljs-selector-tag">h5</span>,
+  <span class="hljs-selector-tag">h6</span> {
+    <span class="hljs-attribute">font-weight</span>: bold;
+    <span class="hljs-attribute">line-height</span>: <span class="hljs-number">1.25</span>;
+    <span class="hljs-attribute">margin</span>: <span class="hljs-number">1.3em</span> <span class="hljs-number">0</span> <span class="hljs-number">0.7em</span>;
+  }
+
+  <span class="hljs-selector-tag">h1</span><span class="hljs-selector-pseudo">:first-child</span>,
+  <span class="hljs-selector-tag">h2</span><span class="hljs-selector-pseudo">:first-child</span>,
+  <span class="hljs-selector-tag">h3</span><span class="hljs-selector-pseudo">:first-child</span>,
+  <span class="hljs-selector-tag">h4</span><span class="hljs-selector-pseudo">:first-child</span>,
+  <span class="hljs-selector-tag">h5</span><span class="hljs-selector-pseudo">:first-child</span>,
+  <span class="hljs-selector-tag">h6</span><span class="hljs-selector-pseudo">:first-child</span> {
+    <span class="hljs-attribute">margin-top</span>: <span class="hljs-number">0</span>;
+  }
+
+  <span class="hljs-selector-tag">h1</span> + *,
+  <span class="hljs-selector-tag">h2</span> + *,
+  <span class="hljs-selector-tag">h3</span> + *,
+  <span class="hljs-selector-tag">h4</span> + *,
+  <span class="hljs-selector-tag">h5</span> + *,
+  <span class="hljs-selector-tag">h6</span> + * {
+    <span class="hljs-attribute">margin-top</span>: <span class="hljs-number">0</span>;
+  }
+
+  <span class="hljs-selector-tag">h1</span> {
+    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">2em</span>;
+  }
+
+  <span class="hljs-selector-tag">h2</span> {
+    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">1.7em</span>;
+  }
+
+  <span class="hljs-selector-tag">h3</span> {
+    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">1.4em</span>;
+  }
+
+  <span class="hljs-selector-tag">h4</span> {
+    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">1.2em</span>;
+  }
+
+  <span class="hljs-selector-tag">h5</span>,
+  <span class="hljs-selector-tag">h6</span> {
+    <span class="hljs-attribute">font-size</span>: <span class="hljs-number">1em</span>;
+  }
+
+  <span class="hljs-comment">/**
+   * Generic styling
+   */</span>
+  <span class="hljs-selector-tag">ul</span>,
+  <span class="hljs-selector-tag">ol</span> {
+    <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">0</span>;
+    <span class="hljs-attribute">padding-left</span>: <span class="hljs-number">2.3em</span>;
+  }
+
+  <span class="hljs-selector-tag">ul</span> {
+    <span class="hljs-attribute">list-style</span>: disc;
+  }
+
+  <span class="hljs-selector-tag">ol</span> {
+    <span class="hljs-attribute">list-style</span>: decimal;
+  }
+
+  <span class="hljs-selector-tag">li</span> + <span class="hljs-selector-tag">li</span>,
+  <span class="hljs-selector-tag">li</span> <span class="hljs-selector-tag">ol</span>,
+  <span class="hljs-selector-tag">li</span> <span class="hljs-selector-tag">ul</span> {
+    <span class="hljs-attribute">margin-top</span>: <span class="hljs-number">0.5em</span>;
+  }
+
+  <span class="hljs-comment">/**
+   * Paragraphs
+   */</span>
+  <span class="hljs-selector-tag">p</span> {
+    <span class="hljs-attribute">margin-bottom</span>: <span class="hljs-number">0</span>;
+  }
+
+  <span class="hljs-selector-tag">p</span><span class="hljs-selector-pseudo">:first-child</span> {
+    <span class="hljs-attribute">margin-top</span>: <span class="hljs-number">0</span>;
+  }
+}
+</pre>
+                            </code>
+                            
+                        </div>
+                    </span>
+                </li>
+                <li class="Meta-item">
+                    <strong class="Meta-key">URL:</strong>
+                    <span class="Meta-value"><a data-no-pjax href="../raw/typography/typography.css"><span>/components/raw/typography/typography.css</span></a></span>
+                </li>
+                <li class="Meta-item">
+                    <strong class="Meta-key">Filesystem Path:</strong>
+                    <span class="Meta-value">components/00_base/typography/typography.css</span>
+                </li>
+                <li class="Meta-item">
+                    <strong class="Meta-key">Size:</strong>
+                    <span class="Meta-value">1.3 KB</span>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+</div>
+
+
+
+    
+    <div class="Browser-panel" data-role="tab-panel" id="browser-d0de7167d6d1f359f06fb5b124f0c9a3-panel-info">
+    <ul class="Meta">
+        <li class="Meta-item">
+            <strong class="Meta-key">Handle:</strong>
+            <span class="Meta-value">@typography</span>
+        </li>
+        
+        
+        
+        
+        
+        <li class="Meta-item">
+            <strong class="Meta-key">Preview:</strong>
+            <span class="Meta-value">
+                <ul>
+                    <li><a data-no-pjax href="../preview/typography.html"><span>With layout</span> <svg fill="#000000" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M19 4H5c-1.11 0-2 .9-2 2v12c0 1.1.89 2 2 2h4v-2H5V8h14v10h-4v2h4c1.1 0 2-.9 2-2V6c0-1.1-.89-2-2-2zm-7 6l-4 4h3v6h2v-6h3l-4-4z"/>
+</svg>
+</a></li>
+                    <li><a data-no-pjax href="../render/typography.html"><span>Component only</span> <svg fill="#000000" height="22" viewBox="0 0 24 24" width="22" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h24v24H0z" fill="none"/>
+    <path d="M19 4H5c-1.11 0-2 .9-2 2v12c0 1.1.89 2 2 2h4v-2H5V8h14v10h-4v2h4c1.1 0 2-.9 2-2V6c0-1.1-.89-2-2-2zm-7 6l-4 4h3v6h2v-6h3l-4-4z"/>
+</svg>
+</a></li>
+                </ul>
+            </span>
+        </li>
+        <li class="Meta-item">
+            <strong class="Meta-key">Filesystem Path:</strong>
+            <span class="Meta-value">components/00_base/typography/typography.hbs</span>
+        </li>
+        
+        
+    </ul>
+</div>
+
+    
+    <div class="Browser-panel Browser-notes" data-role="tab-panel" id="browser-d0de7167d6d1f359f06fb5b124f0c9a3-panel-notes">
+    <div class="Prose Prose--condensed">
+        
+        <p class="Browser-isEmptyNote">There are no notes for this item.</p>
+        
+    </div>
+</div>
+
+    
+
+</div>
+
+</div>
+
+
+    
+
+</div>
+
+
+            </div>
+        </div>
+
+        <div class="Frame-handle" data-role="frame-resize-handle"></div>
+        
+        <div class="Frame-panel Frame-panel--sidebar" data-role="sidebar">
+            <nav class="Navigation">
+
+    
+<div class="Navigation-group">
+
+<div class="Tree" data-behaviour="tree" id="tree-docs">
+    <h3 class="Tree-title">documentation</h3>
+    <ul class="Tree-items Tree-depth-1">
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="../../index.html" data-pjax>
+                <span>Overview</span>
+                
+            </a>
+        </li>
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="../../docs/svg-icons.html" data-pjax>
+                <span>Svg Icons</span>
+                
+            </a>
+        </li>
+        
+    
+
+    </ul>
+</div>
+
+</div>
+
+
+
+    
+<div class="Navigation-group">
+
+<div class="Tree" data-behaviour="tree" id="tree-components">
+    <h3 class="Tree-title">components</h3>
+    <ul class="Tree-items Tree-depth-1">
+        
+    
+        
+        <li class="Tree-item Tree-collection Tree-depth-2" data-behaviour="collection" id="tree-components-collection-00_base">
+            <h4 class="Tree-collectionLabel" data-role="toggle">
+                <span>00 Base</span>
+            </h4>
+            <ul class="Tree-collectionItems" data-role="items">
+            
+            
+            
+            
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="colors.html" data-pjax>
+                <span>Colors</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #ff9233;" title="WIP"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity is-current" data-state="current" data-role="item">
+            <a class="Tree-entityLink" href="" data-pjax>
+                <span>Typography</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #ff9233;" title="WIP"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+
+            </ul>
+        </li>
+        
+    
+        
+        <li class="Tree-item Tree-collection Tree-depth-2" data-behaviour="collection" id="tree-components-collection-01_atoms">
+            <h4 class="Tree-collectionLabel" data-role="toggle">
+                <span>01 Atoms</span>
+            </h4>
+            <ul class="Tree-collectionItems" data-role="items">
+            
+            
+            
+            
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="button.html" data-pjax>
+                <span>Button</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="svg.html" data-pjax>
+                <span>Svg</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #ff9233;" title="WIP"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+
+            </ul>
+        </li>
+        
+    
+
+    </ul>
+</div>
+
+</div>
+
+
+
+</nav>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="../../themes/mandelbrot/js/mandelbrot.js?cachebust=1.2.1"></script>
+
+
+
+</body>
+</html>

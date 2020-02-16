@@ -1,0 +1,67 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Preview Layout</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="../../css/styles.css">
+  <style>
+    body {
+      padding: 1rem;
+    }
+
+    .color-palette-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+      grid-gap: 2rem;
+    }
+
+    .color-palette-list li {
+      display: flex;
+      flex-direction: column;
+      margin-top: 0;
+    }
+
+    .color-sample {
+      margin-bottom: 0.5rem;
+      height: 0;
+      width: 100%;
+      padding-bottom: 100%;
+      border-radius: 4px;
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <ul class="color-palette-list">
+  <li>
+    <div class="color-sample" style="background-color: #333"></div>
+    <ul class="flat-list">
+      <li><code>--body-text</code></li>
+      <li><code>#333</code></li>
+    </ul>
+  </li>
+  <li>
+    <div class="color-sample" style="background-color: #fff"></div>
+    <ul class="flat-list">
+      <li><code>--body-background</code></li>
+      <li><code>#fff</code></li>
+    </ul>
+  </li>
+  <li>
+    <div class="color-sample" style="background-color: #f09d51"></div>
+    <ul class="flat-list">
+      <li><code>--primary-background</code></li>
+      <li><code>#f09d51</code></li>
+    </ul>
+  </li>
+</ul>
+
+</body>
+</html>
+
