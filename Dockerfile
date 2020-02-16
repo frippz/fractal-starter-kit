@@ -1,5 +1,3 @@
-FROM node:10.15-alpine
+FROM node:12.16-alpine
 
-WORKDIR /usr/src/page
-
-RUN npm install -g yarn@1.16
+WORKDIR /app

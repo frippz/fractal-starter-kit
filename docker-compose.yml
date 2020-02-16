@@ -3,7 +3,7 @@ version: '3'
 services:
 
   fractal:
-    container_name: frctl-strtr
+    container_name: fractal-starter-kit
 
     build:
       context: .
