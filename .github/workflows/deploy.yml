@@ -1,9 +1,6 @@
 name: Deploy to Github Pages
 
-on:
-  release:
-    types:
-      - published
+on: [push]
 
 jobs:
   deploy:
