@@ -2,12 +2,8 @@
   "name": "fractal-starter-kit",
   "version": "0.1.0",
   "license": "MIT",
-  "dependencies": {
-    "@frctl/fractal": "^1.1.7",
-    "@frctl/handlebars": "^1.1.5",
-    "@frctl/mandelbrot": "^1.2.1"
-  },
   "scripts": {
+    "prestart": "yarn",
     "start": "concurrently 'yarn run build:watch' 'fractal start --sync'",
     "prebuild": "mkdir -p public/css public/js && touch public/css/styles.css public/js/bundle.js",
     "build": "yarn run build:css && yarn run build:svg && yarn run build:js",
@@ -23,6 +19,11 @@
     "fractal:build:clean": "rm -rf ./build/*",
     "prefractal:deploy": "yarn run fractal:build",
     "fractal:deploy": "./script/deploy.sh"
+  },
+  "dependencies": {
+    "@frctl/fractal": "^1.1.7",
+    "@frctl/handlebars": "^1.1.5",
+    "@frctl/mandelbrot": "^1.2.1"
   },
   "devDependencies": {
     "clean-css-cli": "^4.3.0",

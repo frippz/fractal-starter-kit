@@ -10,9 +10,9 @@ services:
       dockerfile: Dockerfile
 
     volumes:
-      - .:/app
+      - .:/fractal
 
-    working_dir: /app
+    working_dir: /fractal
 
     environment:
       NODE_ENV: development

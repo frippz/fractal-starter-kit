@@ -1,7 +1,7 @@
 FROM node:12.16-alpine
 
-WORKDIR /app
+WORKDIR /fractal
 
-COPY package.json yarn.lock /app/
+COPY package.json yarn.lock /fractal/
 
 RUN yarn install --pure-lockfile
