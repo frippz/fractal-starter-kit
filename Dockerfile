@@ -2,6 +2,6 @@ FROM node:12.16-alpine
 
 WORKDIR /fractal
 
-COPY package.json yarn.lock /fractal/
+COPY package.json package-lock.json /fractal/
 
-RUN yarn install --pure-lockfile
+RUN npm ci
