@@ -20,7 +20,7 @@
     "fractal:deploy": "./script/deploy.sh"
   },
   "dependencies": {
-    "@frctl/fractal": "^1.1.7",
+    "@frctl/fractal": "^1.2.1",
     "@frctl/handlebars": "^1.1.5",
     "@frctl/mandelbrot": "^1.2.1",
     "clean-css-cli": "^4.3.0",
